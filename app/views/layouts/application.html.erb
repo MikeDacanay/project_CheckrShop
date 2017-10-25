@@ -7,7 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div class='header1'>
+	<h1> CheckrShop</h1>
+	<h5><i>Shop smart, Shop Cheap</i></h5>
+</div>
+<div class='header2'>
+	<form>
+		<input type="text" name="email">
+		<input class = "password" type="password" name="password">
+		<input class= "submit" type='submit' value="Login">
+		<input class= "submit register" type='submit' value="Register"> 
+	</form>
+</div>
 <%= yield %>
 
 </body>
